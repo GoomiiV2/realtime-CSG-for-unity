@@ -24,7 +24,7 @@ namespace RealtimeCSG
 				Rect bottomBarRect;
 				if (haveOffset)
 				{
-					bottomBarRect = new Rect(0, height - (CSG_GUIStyleUtility.BottomToolBarHeight + 18), 
+					bottomBarRect = new Rect(0, height - (CSG_GUIStyleUtility.BottomToolBarHeight + 30), 
 											  width, CSG_GUIStyleUtility.BottomToolBarHeight);
 				} else
 					bottomBarRect = new Rect(0, height - (CSG_GUIStyleUtility.BottomToolBarHeight + 1), width, CSG_GUIStyleUtility.BottomToolBarHeight);
